@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6007BB2B1E543AA900C19060 /* SGTMVVMView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6007BB211E543AA900C19060 /* SGTMVVMView.framework */; };
+		6007BB301E543AA900C19060 /* SGTMVVMViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007BB2F1E543AA900C19060 /* SGTMVVMViewTests.swift */; };
+		6007BB321E543AA900C19060 /* SGTMVVMView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6007BB241E543AA900C19060 /* SGTMVVMView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60BC0FF11E5C3866002B646C /* SGTMVVMTableDataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FB91E5C3866002B646C /* SGTMVVMTableDataSection.swift */; };
+		60BC0FF21E5C3866002B646C /* SGTMVVMTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FBA1E5C3866002B646C /* SGTMVVMTableDataSource.swift */; };
+		60BC0FF31E5C3866002B646C /* SGTNetWorkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FBB1E5C3866002B646C /* SGTNetWorkError.swift */; };
+		60BC0FF41E5C3866002B646C /* SGTMVVMAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FBD1E5C3866002B646C /* SGTMVVMAssembly.swift */; };
+		60BC0FF51E5C3866002B646C /* SGTMVVMInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FBE1E5C3866002B646C /* SGTMVVMInject.swift */; };
+		60BC0FF61E5C3866002B646C /* SGTMVVMNavControllerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC01E5C3866002B646C /* SGTMVVMNavControllerStack.swift */; };
+		60BC0FF71E5C3866002B646C /* SGTMVVMPageRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC11E5C3866002B646C /* SGTMVVMPageRoute.swift */; };
+		60BC0FF81E5C3866002B646C /* SGTMVVMPageRouteServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC31E5C3866002B646C /* SGTMVVMPageRouteServicesProtocol.swift */; };
+		60BC0FF91E5C3866002B646C /* SGTMVVMViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC41E5C3866002B646C /* SGTMVVMViewModelProtocol.swift */; };
+		60BC0FFA1E5C3866002B646C /* SGTMVVMViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC51E5C3866002B646C /* SGTMVVMViewProtocol.swift */; };
+		60BC0FFB1E5C3866002B646C /* SGTViewModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FC71E5C3866002B646C /* SGTViewModelService.swift */; };
+		60BC0FFC1E5C3866002B646C /* SGTMVVMSwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FCA1E5C3866002B646C /* SGTMVVMSwipeTableViewCell.swift */; };
+		60BC0FFD1E5C3866002B646C /* SGTMVVMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FCB1E5C3866002B646C /* SGTMVVMTableViewCell.swift */; };
+		60BC0FFE1E5C3866002B646C /* SGTMVVMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FCD1E5C3866002B646C /* SGTMVVMTableViewController.swift */; };
+		60BC0FFF1E5C3866002B646C /* SGTMVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FCE1E5C3866002B646C /* SGTMVVMViewController.swift */; };
+		60BC10001E5C3866002B646C /* SGTMVVMTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD01E5C3866002B646C /* SGTMVVMTableView.swift */; };
+		60BC10011E5C3866002B646C /* SGTMVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD11E5C3866002B646C /* SGTMVVMView.swift */; };
+		60BC10021E5C3866002B646C /* SGTMVVMSwipeTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD41E5C3866002B646C /* SGTMVVMSwipeTableCellViewModel.swift */; };
+		60BC10031E5C3866002B646C /* SGTMVVMTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD51E5C3866002B646C /* SGTMVVMTableCellViewModel.swift */; };
+		60BC10041E5C3866002B646C /* SGTMVVM404ControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD71E5C3866002B646C /* SGTMVVM404ControllerViewModel.swift */; };
+		60BC10051E5C3866002B646C /* SGTMVVMControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD81E5C3866002B646C /* SGTMVVMControllerViewModel.swift */; };
+		60BC10061E5C3866002B646C /* SGTMVVMTableControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FD91E5C3866002B646C /* SGTMVVMTableControllerViewModel.swift */; };
+		60BC10071E5C3866002B646C /* SGTMVVMTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FDB1E5C3866002B646C /* SGTMVVMTableViewModel.swift */; };
+		60BC10081E5C3866002B646C /* SGTMVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FDC1E5C3866002B646C /* SGTMVVMViewModel.swift */; };
+		60BC10091E5C3866002B646C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FDE1E5C3866002B646C /* Array+Extension.swift */; };
+		60BC100A1E5C3866002B646C /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FDF1E5C3866002B646C /* NSDate+Extension.swift */; };
+		60BC100B1E5C3866002B646C /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE01E5C3866002B646C /* NSObject+Extension.swift */; };
+		60BC100C1E5C3866002B646C /* ReactiveCocoa+RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE11E5C3866002B646C /* ReactiveCocoa+RAC.swift */; };
+		60BC100D1E5C3866002B646C /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE21E5C3866002B646C /* String+Extention.swift */; };
+		60BC100E1E5C3866002B646C /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE31E5C3866002B646C /* UIButton+Extention.swift */; };
+		60BC100F1E5C3866002B646C /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE41E5C3866002B646C /* UIImageView+Extension.swift */; };
+		60BC10101E5C3866002B646C /* UILabel+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE51E5C3866002B646C /* UILabel+Extention.swift */; };
+		60BC10111E5C3866002B646C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE61E5C3866002B646C /* UIView+Extension.swift */; };
+		60BC10121E5C3866002B646C /* UIViewController+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE71E5C3866002B646C /* UIViewController+HUD.swift */; };
+		60BC10131E5C3866002B646C /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FE91E5C3866002B646C /* CocoaLumberjack.swift */; };
+		60BC10141E5C3866002B646C /* LinkedConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FEA1E5C3866002B646C /* LinkedConsole.swift */; };
+		60BC10151E5C3866002B646C /* SGTReactViewLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FEB1E5C3866002B646C /* SGTReactViewLog.swift */; };
+		60BC10161E5C3866002B646C /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FED1E5C3866002B646C /* GlobalDefine.swift */; };
+		60BC10171E5C3866002B646C /* SGTReactViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FEE1E5C3866002B646C /* SGTReactViewConfig.swift */; };
+		60BC10181E5C3866002B646C /* SGTMVVMNetReachablity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FF01E5C3866002B646C /* SGTMVVMNetReachablity.swift */; };
+		BDB4A0E8041587F791E8B690 /* Pods_SGTMVVMView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B84438269AE07FD4A5287F /* Pods_SGTMVVMView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6007BB2C1E543AA900C19060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6007BB181E543AA900C19060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6007BB201E543AA900C19060;
+			remoteInfo = SGTMVVMView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6007BB211E543AA900C19060 /* SGTMVVMView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGTMVVMView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6007BB241E543AA900C19060 /* SGTMVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGTMVVMView.h; sourceTree = "<group>"; };
+		6007BB251E543AA900C19060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6007BB2A1E543AA900C19060 /* SGTMVVMViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGTMVVMViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6007BB2F1E543AA900C19060 /* SGTMVVMViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGTMVVMViewTests.swift; sourceTree = "<group>"; };
+		6007BB311E543AA900C19060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BC0FB91E5C3866002B646C /* SGTMVVMTableDataSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableDataSection.swift; sourceTree = "<group>"; };
+		60BC0FBA1E5C3866002B646C /* SGTMVVMTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableDataSource.swift; sourceTree = "<group>"; };
+		60BC0FBB1E5C3866002B646C /* SGTNetWorkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTNetWorkError.swift; sourceTree = "<group>"; };
+		60BC0FBD1E5C3866002B646C /* SGTMVVMAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMAssembly.swift; sourceTree = "<group>"; };
+		60BC0FBE1E5C3866002B646C /* SGTMVVMInject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMInject.swift; sourceTree = "<group>"; };
+		60BC0FC01E5C3866002B646C /* SGTMVVMNavControllerStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMNavControllerStack.swift; sourceTree = "<group>"; };
+		60BC0FC11E5C3866002B646C /* SGTMVVMPageRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMPageRoute.swift; sourceTree = "<group>"; };
+		60BC0FC31E5C3866002B646C /* SGTMVVMPageRouteServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMPageRouteServicesProtocol.swift; sourceTree = "<group>"; };
+		60BC0FC41E5C3866002B646C /* SGTMVVMViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMViewModelProtocol.swift; sourceTree = "<group>"; };
+		60BC0FC51E5C3866002B646C /* SGTMVVMViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMViewProtocol.swift; sourceTree = "<group>"; };
+		60BC0FC71E5C3866002B646C /* SGTViewModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTViewModelService.swift; sourceTree = "<group>"; };
+		60BC0FCA1E5C3866002B646C /* SGTMVVMSwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMSwipeTableViewCell.swift; sourceTree = "<group>"; };
+		60BC0FCB1E5C3866002B646C /* SGTMVVMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableViewCell.swift; sourceTree = "<group>"; };
+		60BC0FCD1E5C3866002B646C /* SGTMVVMTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableViewController.swift; sourceTree = "<group>"; };
+		60BC0FCE1E5C3866002B646C /* SGTMVVMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMViewController.swift; sourceTree = "<group>"; };
+		60BC0FD01E5C3866002B646C /* SGTMVVMTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableView.swift; sourceTree = "<group>"; };
+		60BC0FD11E5C3866002B646C /* SGTMVVMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMView.swift; sourceTree = "<group>"; };
+		60BC0FD41E5C3866002B646C /* SGTMVVMSwipeTableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMSwipeTableCellViewModel.swift; sourceTree = "<group>"; };
+		60BC0FD51E5C3866002B646C /* SGTMVVMTableCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableCellViewModel.swift; sourceTree = "<group>"; };
+		60BC0FD71E5C3866002B646C /* SGTMVVM404ControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVM404ControllerViewModel.swift; sourceTree = "<group>"; };
+		60BC0FD81E5C3866002B646C /* SGTMVVMControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMControllerViewModel.swift; sourceTree = "<group>"; };
+		60BC0FD91E5C3866002B646C /* SGTMVVMTableControllerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableControllerViewModel.swift; sourceTree = "<group>"; };
+		60BC0FDB1E5C3866002B646C /* SGTMVVMTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMTableViewModel.swift; sourceTree = "<group>"; };
+		60BC0FDC1E5C3866002B646C /* SGTMVVMViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMViewModel.swift; sourceTree = "<group>"; };
+		60BC0FDE1E5C3866002B646C /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		60BC0FDF1E5C3866002B646C /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		60BC0FE01E5C3866002B646C /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		60BC0FE11E5C3866002B646C /* ReactiveCocoa+RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReactiveCocoa+RAC.swift"; sourceTree = "<group>"; };
+		60BC0FE21E5C3866002B646C /* String+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		60BC0FE31E5C3866002B646C /* UIButton+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
+		60BC0FE41E5C3866002B646C /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		60BC0FE51E5C3866002B646C /* UILabel+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extention.swift"; sourceTree = "<group>"; };
+		60BC0FE61E5C3866002B646C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		60BC0FE71E5C3866002B646C /* UIViewController+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HUD.swift"; sourceTree = "<group>"; };
+		60BC0FE91E5C3866002B646C /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
+		60BC0FEA1E5C3866002B646C /* LinkedConsole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedConsole.swift; sourceTree = "<group>"; };
+		60BC0FEB1E5C3866002B646C /* SGTReactViewLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTReactViewLog.swift; sourceTree = "<group>"; };
+		60BC0FED1E5C3866002B646C /* GlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
+		60BC0FEE1E5C3866002B646C /* SGTReactViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTReactViewConfig.swift; sourceTree = "<group>"; };
+		60BC0FF01E5C3866002B646C /* SGTMVVMNetReachablity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMNetReachablity.swift; sourceTree = "<group>"; };
+		63E99109CA68BBD98DFFF4BD /* Pods_SGTMVVMViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTMVVMViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D7E923AAA8308778B8DC55 /* Pods-SGTMVVMView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTMVVMView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGTMVVMView/Pods-SGTMVVMView.debug.xcconfig"; sourceTree = "<group>"; };
+		71C049E3E58300F82691C34B /* Pods-SGTMVVMView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTMVVMView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGTMVVMView/Pods-SGTMVVMView.release.xcconfig"; sourceTree = "<group>"; };
+		C7B84438269AE07FD4A5287F /* Pods_SGTMVVMView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTMVVMView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6007BB1D1E543AA900C19060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB4A0E8041587F791E8B690 /* Pods_SGTMVVMView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6007BB271E543AA900C19060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6007BB2B1E543AA900C19060 /* SGTMVVMView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6007BB171E543AA900C19060 = {
+			isa = PBXGroup;
+			children = (
+				60BC0FB61E5C3866002B646C /* Source */,
+				6007BB231E543AA900C19060 /* SGTMVVMView */,
+				6007BB2E1E543AA900C19060 /* SGTMVVMViewTests */,
+				6007BB221E543AA900C19060 /* Products */,
+				E7FC12DC687F0BA0B885F1D9 /* Pods */,
+				796C889B48EF944E6A611AA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6007BB221E543AA900C19060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6007BB211E543AA900C19060 /* SGTMVVMView.framework */,
+				6007BB2A1E543AA900C19060 /* SGTMVVMViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6007BB231E543AA900C19060 /* SGTMVVMView */ = {
+			isa = PBXGroup;
+			children = (
+				6007BB241E543AA900C19060 /* SGTMVVMView.h */,
+				6007BB251E543AA900C19060 /* Info.plist */,
+			);
+			path = SGTMVVMView;
+			sourceTree = "<group>";
+		};
+		6007BB2E1E543AA900C19060 /* SGTMVVMViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6007BB2F1E543AA900C19060 /* SGTMVVMViewTests.swift */,
+				6007BB311E543AA900C19060 /* Info.plist */,
+			);
+			path = SGTMVVMViewTests;
+			sourceTree = "<group>";
+		};
+		60BC0FB61E5C3866002B646C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FB71E5C3866002B646C /* Core */,
+				60BC0FDD1E5C3866002B646C /* Extention */,
+				60BC0FE81E5C3866002B646C /* Log */,
+				60BC0FEC1E5C3866002B646C /* Marco */,
+				60BC0FEF1E5C3866002B646C /* Utils */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		60BC0FB71E5C3866002B646C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FB81E5C3866002B646C /* Beans */,
+				60BC0FBC1E5C3866002B646C /* Inject */,
+				60BC0FBF1E5C3866002B646C /* PageRoute */,
+				60BC0FC21E5C3866002B646C /* Protocol */,
+				60BC0FC61E5C3866002B646C /* Service */,
+				60BC0FC81E5C3866002B646C /* View */,
+				60BC0FD21E5C3866002B646C /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60BC0FB81E5C3866002B646C /* Beans */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FB91E5C3866002B646C /* SGTMVVMTableDataSection.swift */,
+				60BC0FBA1E5C3866002B646C /* SGTMVVMTableDataSource.swift */,
+				60BC0FBB1E5C3866002B646C /* SGTNetWorkError.swift */,
+			);
+			path = Beans;
+			sourceTree = "<group>";
+		};
+		60BC0FBC1E5C3866002B646C /* Inject */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FBD1E5C3866002B646C /* SGTMVVMAssembly.swift */,
+				60BC0FBE1E5C3866002B646C /* SGTMVVMInject.swift */,
+			);
+			path = Inject;
+			sourceTree = "<group>";
+		};
+		60BC0FBF1E5C3866002B646C /* PageRoute */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FC01E5C3866002B646C /* SGTMVVMNavControllerStack.swift */,
+				60BC0FC11E5C3866002B646C /* SGTMVVMPageRoute.swift */,
+			);
+			path = PageRoute;
+			sourceTree = "<group>";
+		};
+		60BC0FC21E5C3866002B646C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FC31E5C3866002B646C /* SGTMVVMPageRouteServicesProtocol.swift */,
+				60BC0FC41E5C3866002B646C /* SGTMVVMViewModelProtocol.swift */,
+				60BC0FC51E5C3866002B646C /* SGTMVVMViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		60BC0FC61E5C3866002B646C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FC71E5C3866002B646C /* SGTViewModelService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		60BC0FC81E5C3866002B646C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FC91E5C3866002B646C /* Cells */,
+				60BC0FCC1E5C3866002B646C /* Controllers */,
+				60BC0FCF1E5C3866002B646C /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60BC0FC91E5C3866002B646C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FCA1E5C3866002B646C /* SGTMVVMSwipeTableViewCell.swift */,
+				60BC0FCB1E5C3866002B646C /* SGTMVVMTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		60BC0FCC1E5C3866002B646C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FCD1E5C3866002B646C /* SGTMVVMTableViewController.swift */,
+				60BC0FCE1E5C3866002B646C /* SGTMVVMViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60BC0FCF1E5C3866002B646C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FD01E5C3866002B646C /* SGTMVVMTableView.swift */,
+				60BC0FD11E5C3866002B646C /* SGTMVVMView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60BC0FD21E5C3866002B646C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FD31E5C3866002B646C /* Cells */,
+				60BC0FD61E5C3866002B646C /* Controllers */,
+				60BC0FDA1E5C3866002B646C /* Views */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60BC0FD31E5C3866002B646C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FD41E5C3866002B646C /* SGTMVVMSwipeTableCellViewModel.swift */,
+				60BC0FD51E5C3866002B646C /* SGTMVVMTableCellViewModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		60BC0FD61E5C3866002B646C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FD71E5C3866002B646C /* SGTMVVM404ControllerViewModel.swift */,
+				60BC0FD81E5C3866002B646C /* SGTMVVMControllerViewModel.swift */,
+				60BC0FD91E5C3866002B646C /* SGTMVVMTableControllerViewModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60BC0FDA1E5C3866002B646C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FDB1E5C3866002B646C /* SGTMVVMTableViewModel.swift */,
+				60BC0FDC1E5C3866002B646C /* SGTMVVMViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60BC0FDD1E5C3866002B646C /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FDE1E5C3866002B646C /* Array+Extension.swift */,
+				60BC0FDF1E5C3866002B646C /* NSDate+Extension.swift */,
+				60BC0FE01E5C3866002B646C /* NSObject+Extension.swift */,
+				60BC0FE11E5C3866002B646C /* ReactiveCocoa+RAC.swift */,
+				60BC0FE21E5C3866002B646C /* String+Extention.swift */,
+				60BC0FE31E5C3866002B646C /* UIButton+Extention.swift */,
+				60BC0FE41E5C3866002B646C /* UIImageView+Extension.swift */,
+				60BC0FE51E5C3866002B646C /* UILabel+Extention.swift */,
+				60BC0FE61E5C3866002B646C /* UIView+Extension.swift */,
+				60BC0FE71E5C3866002B646C /* UIViewController+HUD.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		60BC0FE81E5C3866002B646C /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FE91E5C3866002B646C /* CocoaLumberjack.swift */,
+				60BC0FEA1E5C3866002B646C /* LinkedConsole.swift */,
+				60BC0FEB1E5C3866002B646C /* SGTReactViewLog.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		60BC0FEC1E5C3866002B646C /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FED1E5C3866002B646C /* GlobalDefine.swift */,
+				60BC0FEE1E5C3866002B646C /* SGTReactViewConfig.swift */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		60BC0FEF1E5C3866002B646C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				60BC0FF01E5C3866002B646C /* SGTMVVMNetReachablity.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		796C889B48EF944E6A611AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B84438269AE07FD4A5287F /* Pods_SGTMVVMView.framework */,
+				63E99109CA68BBD98DFFF4BD /* Pods_SGTMVVMViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7FC12DC687F0BA0B885F1D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D7E923AAA8308778B8DC55 /* Pods-SGTMVVMView.debug.xcconfig */,
+				71C049E3E58300F82691C34B /* Pods-SGTMVVMView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6007BB1E1E543AA900C19060 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6007BB321E543AA900C19060 /* SGTMVVMView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6007BB201E543AA900C19060 /* SGTMVVMView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6007BB351E543AA900C19060 /* Build configuration list for PBXNativeTarget "SGTMVVMView" */;
+			buildPhases = (
+				4A37899E0BF892ED5E176DA3 /* [CP] Check Pods Manifest.lock */,
+				6007BB1C1E543AA900C19060 /* Sources */,
+				6007BB1D1E543AA900C19060 /* Frameworks */,
+				6007BB1E1E543AA900C19060 /* Headers */,
+				6007BB1F1E543AA900C19060 /* Resources */,
+				3D145C7C50D264BDEB820A8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGTMVVMView;
+			productName = SGTMVVMView;
+			productReference = 6007BB211E543AA900C19060 /* SGTMVVMView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6007BB291E543AA900C19060 /* SGTMVVMViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6007BB381E543AA900C19060 /* Build configuration list for PBXNativeTarget "SGTMVVMViewTests" */;
+			buildPhases = (
+				6007BB261E543AA900C19060 /* Sources */,
+				6007BB271E543AA900C19060 /* Frameworks */,
+				6007BB281E543AA900C19060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6007BB2D1E543AA900C19060 /* PBXTargetDependency */,
+			);
+			name = SGTMVVMViewTests;
+			productName = SGTMVVMViewTests;
+			productReference = 6007BB2A1E543AA900C19060 /* SGTMVVMViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6007BB181E543AA900C19060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sgt;
+				TargetAttributes = {
+					6007BB201E543AA900C19060 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6007BB291E543AA900C19060 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6007BB1B1E543AA900C19060 /* Build configuration list for PBXProject "SGTMVVMView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6007BB171E543AA900C19060;
+			productRefGroup = 6007BB221E543AA900C19060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6007BB201E543AA900C19060 /* SGTMVVMView */,
+				6007BB291E543AA900C19060 /* SGTMVVMViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6007BB1F1E543AA900C19060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6007BB281E543AA900C19060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D145C7C50D264BDEB820A8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGTMVVMView/Pods-SGTMVVMView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A37899E0BF892ED5E176DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6007BB1C1E543AA900C19060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC10141E5C3866002B646C /* LinkedConsole.swift in Sources */,
+				60BC10181E5C3866002B646C /* SGTMVVMNetReachablity.swift in Sources */,
+				60BC10111E5C3866002B646C /* UIView+Extension.swift in Sources */,
+				60BC0FF41E5C3866002B646C /* SGTMVVMAssembly.swift in Sources */,
+				60BC10081E5C3866002B646C /* SGTMVVMViewModel.swift in Sources */,
+				60BC0FFD1E5C3866002B646C /* SGTMVVMTableViewCell.swift in Sources */,
+				60BC10011E5C3866002B646C /* SGTMVVMView.swift in Sources */,
+				60BC0FFC1E5C3866002B646C /* SGTMVVMSwipeTableViewCell.swift in Sources */,
+				60BC10121E5C3866002B646C /* UIViewController+HUD.swift in Sources */,
+				60BC10171E5C3866002B646C /* SGTReactViewConfig.swift in Sources */,
+				60BC0FF21E5C3866002B646C /* SGTMVVMTableDataSource.swift in Sources */,
+				60BC10091E5C3866002B646C /* Array+Extension.swift in Sources */,
+				60BC0FFE1E5C3866002B646C /* SGTMVVMTableViewController.swift in Sources */,
+				60BC10051E5C3866002B646C /* SGTMVVMControllerViewModel.swift in Sources */,
+				60BC10041E5C3866002B646C /* SGTMVVM404ControllerViewModel.swift in Sources */,
+				60BC0FF51E5C3866002B646C /* SGTMVVMInject.swift in Sources */,
+				60BC100B1E5C3866002B646C /* NSObject+Extension.swift in Sources */,
+				60BC100D1E5C3866002B646C /* String+Extention.swift in Sources */,
+				60BC0FF61E5C3866002B646C /* SGTMVVMNavControllerStack.swift in Sources */,
+				60BC100A1E5C3866002B646C /* NSDate+Extension.swift in Sources */,
+				60BC0FF31E5C3866002B646C /* SGTNetWorkError.swift in Sources */,
+				60BC10151E5C3866002B646C /* SGTReactViewLog.swift in Sources */,
+				60BC10031E5C3866002B646C /* SGTMVVMTableCellViewModel.swift in Sources */,
+				60BC10161E5C3866002B646C /* GlobalDefine.swift in Sources */,
+				60BC10001E5C3866002B646C /* SGTMVVMTableView.swift in Sources */,
+				60BC10071E5C3866002B646C /* SGTMVVMTableViewModel.swift in Sources */,
+				60BC0FFB1E5C3866002B646C /* SGTViewModelService.swift in Sources */,
+				60BC10131E5C3866002B646C /* CocoaLumberjack.swift in Sources */,
+				60BC100C1E5C3866002B646C /* ReactiveCocoa+RAC.swift in Sources */,
+				60BC0FF91E5C3866002B646C /* SGTMVVMViewModelProtocol.swift in Sources */,
+				60BC100E1E5C3866002B646C /* UIButton+Extention.swift in Sources */,
+				60BC100F1E5C3866002B646C /* UIImageView+Extension.swift in Sources */,
+				60BC0FF71E5C3866002B646C /* SGTMVVMPageRoute.swift in Sources */,
+				60BC10101E5C3866002B646C /* UILabel+Extention.swift in Sources */,
+				60BC10021E5C3866002B646C /* SGTMVVMSwipeTableCellViewModel.swift in Sources */,
+				60BC0FFA1E5C3866002B646C /* SGTMVVMViewProtocol.swift in Sources */,
+				60BC0FFF1E5C3866002B646C /* SGTMVVMViewController.swift in Sources */,
+				60BC0FF11E5C3866002B646C /* SGTMVVMTableDataSection.swift in Sources */,
+				60BC10061E5C3866002B646C /* SGTMVVMTableControllerViewModel.swift in Sources */,
+				60BC0FF81E5C3866002B646C /* SGTMVVMPageRouteServicesProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6007BB261E543AA900C19060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6007BB301E543AA900C19060 /* SGTMVVMViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6007BB2D1E543AA900C19060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6007BB201E543AA900C19060 /* SGTMVVMView */;
+			targetProxy = 6007BB2C1E543AA900C19060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6007BB331E543AA900C19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6007BB341E543AA900C19060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6007BB361E543AA900C19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D7E923AAA8308778B8DC55 /* Pods-SGTMVVMView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SGTMVVMView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sgt.SGTMVVMView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6007BB371E543AA900C19060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C049E3E58300F82691C34B /* Pods-SGTMVVMView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SGTMVVMView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sgt.SGTMVVMView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6007BB391E543AA900C19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SGTMVVMViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sgt.SGTMVVMViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6007BB3A1E543AA900C19060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SGTMVVMViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sgt.SGTMVVMViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6007BB1B1E543AA900C19060 /* Build configuration list for PBXProject "SGTMVVMView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6007BB331E543AA900C19060 /* Debug */,
+				6007BB341E543AA900C19060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6007BB351E543AA900C19060 /* Build configuration list for PBXNativeTarget "SGTMVVMView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6007BB361E543AA900C19060 /* Debug */,
+				6007BB371E543AA900C19060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6007BB381E543AA900C19060 /* Build configuration list for PBXNativeTarget "SGTMVVMViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6007BB391E543AA900C19060 /* Debug */,
+				6007BB3A1E543AA900C19060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6007BB181E543AA900C19060 /* Project object */;
+}
