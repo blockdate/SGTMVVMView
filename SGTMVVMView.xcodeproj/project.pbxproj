@@ -50,6 +50,7 @@
 		60BC10161E5C3866002B646C /* GlobalDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FED1E5C3866002B646C /* GlobalDefine.swift */; };
 		60BC10171E5C3866002B646C /* SGTReactViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FEE1E5C3866002B646C /* SGTReactViewConfig.swift */; };
 		60BC10181E5C3866002B646C /* SGTMVVMNetReachablity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC0FF01E5C3866002B646C /* SGTMVVMNetReachablity.swift */; };
+		60BC107D1E5C3AFF002B646C /* SGTMVVMView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 60BC107C1E5C3AFE002B646C /* SGTMVVMView.podspec */; };
 		BDB4A0E8041587F791E8B690 /* Pods_SGTMVVMView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B84438269AE07FD4A5287F /* Pods_SGTMVVMView.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,7 @@
 		60BC0FED1E5C3866002B646C /* GlobalDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalDefine.swift; sourceTree = "<group>"; };
 		60BC0FEE1E5C3866002B646C /* SGTReactViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTReactViewConfig.swift; sourceTree = "<group>"; };
 		60BC0FF01E5C3866002B646C /* SGTMVVMNetReachablity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTMVVMNetReachablity.swift; sourceTree = "<group>"; };
+		60BC107C1E5C3AFE002B646C /* SGTMVVMView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SGTMVVMView.podspec; sourceTree = "<group>"; };
 		63E99109CA68BBD98DFFF4BD /* Pods_SGTMVVMViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTMVVMViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D7E923AAA8308778B8DC55 /* Pods-SGTMVVMView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTMVVMView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGTMVVMView/Pods-SGTMVVMView.debug.xcconfig"; sourceTree = "<group>"; };
 		71C049E3E58300F82691C34B /* Pods-SGTMVVMView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTMVVMView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGTMVVMView/Pods-SGTMVVMView.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		6007BB171E543AA900C19060 = {
 			isa = PBXGroup;
 			children = (
+				60BC107C1E5C3AFE002B646C /* SGTMVVMView.podspec */,
 				60BC0FB61E5C3866002B646C /* Source */,
 				6007BB231E543AA900C19060 /* SGTMVVMView */,
 				6007BB2E1E543AA900C19060 /* SGTMVVMViewTests */,
@@ -479,6 +482,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BC107D1E5C3AFF002B646C /* SGTMVVMView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

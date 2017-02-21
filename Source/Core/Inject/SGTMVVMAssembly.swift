@@ -13,10 +13,21 @@ open class SGTMVVMAssembly: TyphoonAssembly {
     
     static var classRegistDic: Dictionary<String,Selector> = Dictionary()
     
-    static let singleton = SGTMVVMAssembly().activate()
+    static let singleton = SGTMVVMAssembly()
+    static let activatedAssembly = SGTMVVMAssembly.singleton.activated()
     
+    /// singleton
+    ///
+    /// - Returns: singleton
+    public class func sharedSingleton() -> SGTMVVMAssembly {
+        return self.singleton
+    }
+    
+    /// shared assembly that was activated
+    ///
+    /// - Returns: shared assembly that was activated
     public class func sharedAssembly() -> SGTMVVMAssembly {
-        return self.singleton!
+        return self.activatedAssembly
     }
     
     open dynamic func pageRouteService() -> AnyObject {
@@ -29,14 +40,14 @@ open class SGTMVVMAssembly: TyphoonAssembly {
         self.sharedAssembly().preRegist()
         let className = "\(classC.self)"
         if let sel = SGTMVVMAssembly.classRegistDic[className] {
-            return self.sharedAssembly().perform(sel) as! T
+            return SGTMVVMAssembly.sharedAssembly().perform(sel) as! T
         }else {
             fatalError("\(className) was not registed")
         }
     }
     
     open class func instanceForClass<T>(className: String) -> T {
-        self.sharedAssembly().preRegist()
+        SGTMVVMAssembly.sharedSingleton().preRegist()
         if let sel = SGTMVVMAssembly.classRegistDic[className] {
             let obj = self.sharedAssembly().perform(sel).takeUnretainedValue()
 

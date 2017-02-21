@@ -19,16 +19,15 @@ Pod::Spec.new do |s|
   s.source_files  = "Source/**/*.{h,m,swift}"
   s.resources = 'Resource/**/*.{png,pdf,xib,bundle,strings,plist}'
 
-  s.dependency 'SGTNetworking'
   s.dependency 'SGTUIKit'
-  s.dependency 'SGTImageFramework'
-  s.dependency 'SGTFileUpload'
+  s.dependency 'MGSwipeTableCell'
   s.dependency 'MJRefresh_S'
   s.dependency 'MBProgressHUD'
   s.dependency 'DZNEmptyDataSet'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'ReactiveObjC', '~> 1.0.1'
-  #s.dependency 'ReactiveSwift', '~> 1.0.0-alpha.3'
-  s.dependency 'Typhoon', '~> 3.5.1'
+  s.dependency 'ReactiveCocoa'
+  s.dependency 'ReactiveSwift'
+  s.dependency 'Typhoon'
   s.dependency 'SnapKit'
+
 end

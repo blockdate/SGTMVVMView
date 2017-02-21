@@ -7,16 +7,14 @@ project 'SGTMVVMView.xcodeproj'
 project 'Demo/Demo.xcodeproj'
 
 def all_pods
-    pod 'SGTNetworking'#, '~> 2.0.1'
-    pod 'SGTUIKit'#, '~> 1.0.8'
-    pod 'SGTImageFramework'
-    pod 'SGTFileUpload'
-    pod 'ReactiveObjC', '~> 1.0.1'
+
+    pod 'SGTUIKit'
+    pod 'MGSwipeTableCell'
     pod 'MJRefresh_S'
-    pod 'MBProgressHUD'#, '~> 0.9.1’
-    pod 'DZNEmptyDataSet'#, '~> 1.7.2’
-    pod 'CocoaLumberjack'#, '~> 2.0.3’
-    pod 'Typhoon', '~> 3.5.1'
+    pod 'MBProgressHUD'
+    pod 'DZNEmptyDataSet'
+    pod 'CocoaLumberjack'
+    pod 'Typhoon'#, '~> 3.5.1'
     pod 'SnapKit'
     pod 'ReactiveCocoa'
 end

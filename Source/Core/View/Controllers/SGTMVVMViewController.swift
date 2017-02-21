@@ -11,7 +11,6 @@ import ReactiveSwift
 import ReactiveCocoa
 import MBProgressHUD
 import SGTUIKit
-import SGTNetworking
 
 class SGTMVVMNavigationController: UINavigationController {
     
@@ -284,13 +283,13 @@ extension SGTMVVMViewController {
     }
     
     func initializeNetNotify(){
-        self.networkReachable <~ SGTNetReachablity.netReachablity
-        SGTNetReachablity.netReachablity.signal.observeValues {[weak self] (netReachable) in
-            guard let controller = self else {
-                return
-            }
-            controller.showNetworkUnReachableView(networkReachable: netReachable)
-        }
+//        self.networkReachable <~ SGTNetReachablity.netReachablity
+//        SGTNetReachablity.netReachablity.signal.observeValues {[weak self] (netReachable) in
+//            guard let controller = self else {
+//                return
+//            }
+//            controller.showNetworkUnReachableView(networkReachable: netReachable)
+//        }
     }
     
 }
