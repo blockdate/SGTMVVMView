@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs'
-source 'https://bitbucket.org/sgtfundation/specs'
+source 'https://github.com/blockdate/PodSpecs'
+
 platform :ios, '8.0'
 use_frameworks!
 workspace 'SGTMVVMViewWorkSpace'

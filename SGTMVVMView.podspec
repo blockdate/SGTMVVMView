@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   This is a study Podspec. Provide SGTReactView function. Base on ReactiveCocoa, Design with MVVM, It's a study frame work'
                    DESC
 
-  s.homepage     = "https://bitbucket.org/sgtfundation/sgtreactview"
+  s.homepage     = "https://github.com/blockdate/SGTMVVMView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "吴磊" => "w.leo.sagittarius@gmail.com" }
-  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtreactview.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/blockdate/SGTMVVMView.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
